@@ -15,4 +15,4 @@ jobs:
           token: ${{ secrets.REPO_B_TOKEN }}
           path: apache-repo
       - name: List files from Repo B
-        run: ls -la apache-rep
+        run: ls -la apache-repo
